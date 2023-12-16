@@ -1,0 +1,42 @@
+{
+    "personagens": [
+        {
+            "nome": "Mario Bros",
+            "aparencia": "Boné vermelho, camisa vermelha, macacão azul, bigode espesso ",
+            "habilidades": "Salto alto, força física, habilidades acrobáticas  ",
+            "historia": "Encanador corajoso empenhado em resgatar a Princesa Peach do vilão Bowser no Reino dos Cogumelos. Conhecido por suas aventuras em jogos como Super Mario Bros., Super Mario 64, entre outros.",
+            "foto": "<img src='imagens/marioAPI.png' width='450px'>"
+        },
+        {
+            "nome": "Luigi",
+            "aparencia": "Boné verde, camisa verde, macacão azul, bigode espesso",
+            "habilidades": "Salto alto (embora muitas vezes seja mais alto que o de Mario), força física, habilidades acrobáticas  ",
+            "historia": " Irmão mais novo de Mario, frequentemente acompanhando-o em suas missões para resgatar a Princesa Peach do vilão Bowser. Destacou-se em jogos como Luigi's Mansion e Luigi's Mansion: Dark Moon.",
+            "foto": "<img src='imagens/luigiAPI.png' width='400px'>"
+        },
+        {
+            "nome": "Patolino",
+            "aparencia": "Pato antropomórfico, penas pretas, bico alaranjado, olhos grandes e expressivos  ",
+            "habilidades": "Habilidade em escapar de situações perigosas, humor peculiar  ",
+            "historia": "Personagem clássico dos desenhos animados da Warner Bros., conhecido por suas aparições em Looney Tunes e Merrie Melodies. Constantemente envolvido em situações engraçadas, muitas vezes competindo com Pernalonga (Bugs Bunny).",
+            "foto": "<img src='imagens/patolinoAPI.png' width='450px'>"
+        },
+        {
+            "nome": "Nemo",
+            "aparencia": "Pequeno peixe laranja e branco, uma barbatana menor que a outra devido a uma deficiência  ",
+            "habilidades": " Nadar habilmente, coragem  ",
+            "historia": "Protagonista do filme de animação da Pixar, 'Procurando Nemo'. Tornou-se separado de seu pai, Marlin, e embarca em uma aventura épica no oceano, enfrentando desafios para reunir-se com sua família. Conhecido por sua jornada emocionante e memorável.",
+            "foto": "<img src='imagens/nemoAPI.png' width='450px'>"
+        },
+        {
+            "nome": "Capitão Jack Sparrow  ",
+            "aparencia": "Vestes exóticas, chapéu, várias correntes, bandana, maquiagem desleixada  ",
+            "habilidades": " Habilidade em combate naval, astúcia, esgrima",
+            "historia": "Protagonista da franquia de filmes 'Piratas do Caribe', interpretado por Johnny Depp. Sparrow é conhecido por sua busca pelo tesouro e por sua natureza imprevisível. Sua saga o coloca em várias situações sobrenaturais e confrontos com autoridades navais.",
+            "foto": "<img src='imagens/jackAPI.png' width='450px'>"
+        }
+    ]
+}
+
+    
+    

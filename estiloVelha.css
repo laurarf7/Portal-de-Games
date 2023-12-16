@@ -1,0 +1,227 @@
+
+
+
+img{
+    width: 190px;
+}
+
+header {
+    background-color: #d6cccc;
+    color: #144380;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+  }
+  
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    
+
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+   
+  }
+  
+  .nav-bar {
+    margin-left: auto;
+  }
+  
+  /*    responsivo    */
+  @media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .nav-bar {
+        margin-top: 10px;
+    }
+  
+    nav {
+        margin-top: 10px;
+        justify-content: space-between
+    }
+  
+    nav ul {
+        flex-direction: column;
+        font-size: xx-large;
+    }
+  
+    nav ul li {
+        margin: 0;
+        margin-bottom: 100px;
+    }
+  }
+
+#jogo{
+    width: 603px;
+    height: 603px;
+    border: solid 2px;
+    border-color: white;
+    display: inline-block;
+    
+    background-color: rgba(28, 151, 155, 0.952);
+    margin-left: 200px;
+    
+
+}
+
+#resultado{
+    width: 200px;
+    float: left;
+    padding: 40px;
+   
+}
+
+#resposta{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #7e0e0eda;
+}
+
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+    border-color: white;
+}
+
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    border-color: wheat;
+    float: left;
+}
+.logo{
+  justify-content: flex-start
+}
+
+.xis{
+    font-family: "Courier New", "monospace", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.bola{
+    font-family: "Courier New", "monospace", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.velha{
+    font-family: "Courier New", "monospace", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+input[type=button], input[type=submit], input[type=reset]{
+    background-color: #3d94f6;
+    background-image: linear-gradient(to bottom, #3D94f6, #1e62d0 );
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 30px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #1485a1;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337fed 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background: #610511;
+    background-image: linear-gradient(to bottom, #1e62d0, #3d94f6);
+    text-decoration: none;
+}
+
+.corpoInicio{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+  width: 100%;
+  
+  background-color: #004AAD; ;
+
+}
+a{
+  color: #004AAD;
+  text-align: center;
+  padding: 2px 7px;
+  margin: 2px;
+  border-radius: 20px;
+}
+
+a:hover{
+  background-color: #004AAD;
+  color:#e4e6ec;
+  text-decoration: none;
+}
+
+
+
+
+
+footer{
+  background-color: #101111;
+  color: White;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  min-height: 30vh;
+  margin-top: auto;
+  font-size:  14px;
+  width: 105%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.centro {
+  text-align: center;
+  margin: 10px; 
+}
+
+.alturaImagem {
+  height: 40px; 
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Alinha os itens verticalmente em telas menores */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+

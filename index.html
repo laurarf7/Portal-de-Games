@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Games</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="imagens/LOGOaba.png" type="image/x-icon" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+          <img src="imagens/logo.png" alt="Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="velha.html">Jogo da Velha</a></li>
+            <li><a href="forca.html">Jogo da Forca</a></li>
+            <li><a href="Jogo1_troca.html">Troca Palavra</a></li>
+            <li><a href="adivinha.html">Adivinhe o número</a></li>
+            <li><a href="personagem.html">Seleção dos Personagens</a></li>
+          </ul>
+        </nav>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
+      </header>
+
+    <!-- Banner Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/Banner1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/banner2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/banner3.png" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="imagens/capaTrocaPalavra.png" class="card-img-top" alt="Jogo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Troca Palavra</h5>
+                        <p class="card-text">Um jogo envolvente que combina paixão por filmes com a habilidade de formar novos títulos ao emocionante universo cinematográfico. Prepare-se para uma jornada de diversão linguística.</p>
+                        <a href="Jogo1_troca.html" class="btn btn-primary">Jogar</a>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="imagens/capaJogoDaVelha.png" class="card-img-top" alt="Jogo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo da Velha</h5>
+                        <p class="card-text"> Um clássico jogo de estratégia para dois jogadores com os <strong>Irmãos Bros</strong> . O objetivo é formar uma linha horizontal, vertical ou diagonal com três de suas marcações antes do oponente.</p>
+                        <a href="velha.html" class="btn btn-primary">Jogar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="imagens/capaJogoDaForca.png" class="card-img-top" alt="Jogo 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Forca</h5>
+                        <p class="card-text">Um clássico que testa o vocabulário e a habilidade de dedução. Em um ambiente virtual, você enfrentará o desafio de adivinhar palavras ocultas, enfrentando o risco de um destino pendurado</p>
+                        <a href="forca.html" class="btn btn-primary">Jogar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="imagens/CapaAdivinheNumero.png" class="card-img-top" alt="Jogo 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Adivinhe o Número</h5>
+                        <p class="card-text">Um jogo cativante que desafia os participantes a desvendarem um número misterioso. Combinando astúcia e intuição, onde cada palpite os aproxima ou os afasta da resposta correta.</p>
+                        <a href="adivinha.html" class="btn btn-primary">Jogar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget();
+    </script>
+
+    <footer >
+      <footer>
+        <div class="container">
+          <div class="col-lg-4 col-6 centro">
+            <div class="insta">
+              <a href="https://www.instagram.com/"><img src="imagens/iconInsta.png.png" height="40px"></a>@Portal_Games
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 centro">
+            <div class="twitch">
+              <a href="https://www.twitch.tv/"><img src="imagens/twichIcon.png" height="80px"></a>@Portal_Games
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 centro">
+            <a href="https://www.twitter.com/"><img src="imagens/twitter.png" height="40px"></a>@Portal_Games
+          </div>
+        </div>
+      </footer>
+      
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

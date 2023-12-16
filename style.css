@@ -1,0 +1,245 @@
+.carouselExampleIndicators{
+  margin: 30px;
+}
+
+header {
+  background-color: #d6cccc;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: justify;
+  
+}
+
+.nav-bar {
+  margin-left: auto;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-bar {
+      margin-top: 10px;
+  }
+
+  nav {
+      margin-top: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      font-size: xx-large;
+  }
+
+  nav ul li {
+      margin: 0;
+      margin-bottom: 100px;
+  }
+}
+
+
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+.imagem {
+  max-width: 100%;
+  height: auto;
+}
+#palavra{
+  margin: 0 auto;
+}
+
+
+.troca {
+  position: relative;
+  color: rgb(152, 155, 155); /* Cor original do texto */
+  text-decoration: double;
+}
+
+.troca::after {
+  content: "Palavra Troca";
+  color: red; /* Cor da palavra quando o mouse passa por cima */
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.troca:hover::after {
+  opacity: 1;
+  
+}
+.troca:hover::before {
+  visibility: visible;
+}
+.inicioTroca{
+ text-align: center;
+ 
+}
+
+.corpoInicio{
+
+  width: 100%;
+  height: 100%;
+  background-color: #004AAD;
+ 
+  padding: 40px;
+
+}
+
+.corpoInicioPesonagem{
+  width: 100%;
+  height: 500px;
+  background-color: #004AAD;
+ 
+  padding: 40px;
+
+}
+
+h3{
+  color: white;
+}
+
+a{
+  color: #004AAD;
+  text-align: center;
+  padding: 2px 7px;
+  margin: 2px;
+  border-radius: 20px;
+}
+
+a:hover{
+  background-color: #004AAD;
+  color:#e4e6ec;
+  text-decoration: none;
+}
+
+#botao1SP{
+  background-color:  #004AAD;
+  width: 241px;
+  border: #004AAD;
+}
+
+
+.todosPersonagens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+
+
+#dados{
+  background-color: #1692b1;
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin-top: 25px;
+  padding: 30px;
+  font-size: larger;
+ 
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.centro {
+  text-align: center;
+  margin: 10px; 
+}
+
+  
+
+  footer{
+    background-color: #101111;
+    color: White;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 30vh;
+    margin-top: auto;
+    font-size:  14px;
+   
+  
+   
+}
+
+.tituloPerso{
+  text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Alinha os itens verticalmente em telas menores */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+}
+
+
+

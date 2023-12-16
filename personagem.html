@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens</title>
+    <link rel="shortcut icon" href="imagens/LOGOaba.png" type="image/x-icon" >
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="personag.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <img src="imagens/logo.png" alt="Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="velha.html">Jogo da Velha</a></li>
+            <li><a href="forca.html">Jogo da Forca</a></li>
+            <li><a href="Jogo1_troca.html">Troca Palavra</a></li>
+            <li><a href="adivinha.html">Adivinhe o número</a></li>
+            <li><a href="personagem.html">Seleção dos Personagens</a></li>
+          </ul>
+        </nav>
+        
+    </header>
+
+    <div class="corpoInicio">
+
+        <div class="tituloPerso">
+          <h2 style="color: white;">Bem vindo(a) a nossa Seleção dos Personagens!</h2>
+          <h3>Clique em algum deles que aparece em nosso site para descobrir um pouco mais</h3>
+        </div>
+
+        <section class="linha">
+
+          <div class="todosPersonagens">
+
+              <div class="col-6">
+                <div class="personagem1">
+                    <button id="botao1SP" onclick="chama_personagem(0)"><img src="imagens/marioRosto.png"height="225px" ></button>
+                </div>
+              </div>
+              <!---->
+              <div class="col-6">
+              <div class="personagem2">
+                <button id="botao1SP" onclick="chama_personagem(1)" ><img  src="imagens/luigiRosto.png" width="256px" height="225px"></button>
+              </div>
+              </div>  
+              <!---->
+              <div class="personagem3">
+                <button id="botao1SP" onclick="chama_personagem(2)" ><img  src="imagens/patlinoRosto.png" width="225px"height="220px"></button>
+              </div>
+              <!---->
+              <div class="personagem4">
+                <button id="botao1SP" onclick="chama_personagem(3)" ><img  src="imagens/nemoRosto.png" width="256px"height="225px"></button>
+              </div>
+              <!---->
+              <div class="personagem5">
+                <button id="botao1SP" onclick="chama_personagem(4)" ><img  src="imagens/rostoPirata.png" width="256px"height="225px"></button>
+              </div>
+              <div id="dados"></div>
+          </div>
+          <!---->
+         
+          
+              </div>
+        </section>
+
+        <div vw class="enabled">
+          <div vw-access-button class="active"></div>
+          <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+          </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget();
+        </script>
+
+        <footer >
+          <footer>
+            <div class="container">
+              <div class="col-lg-4 col-6 centro">
+                <div class="insta">
+                  <a href="https://www.instagram.com/"><img src="imagens/iconInsta.png.png" height="40px"></a>@Portal_Games
+                </div>
+              </div>
+              <div class="col-lg-4 col-6 centro">
+                <div class="twitch">
+                  <a href="https://www.twitch.tv/"><img src="imagens/twichIcon.png" height="80px"></a>@Portal_Games
+                </div>
+              </div>
+              <div class="col-lg-4 col-6 centro">
+                <a href="https://www.twitter.com/"><img src="imagens/twitter.png" height="40px"></a>@Portal_Games
+              </div>
+            </div>
+          </footer>
+    
+</body>
+</html>

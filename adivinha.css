@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+   
+}
+
+.caixaFundo{
+    margin: 0 auto;
+    height: 600px;
+    width: 800px;
+    background-color: #5c92d89f;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+h1 {
+    color: #202222;
+    
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    width: 100px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #9059b1;
+    color: #fff;
+    border-color: #e4e6ec;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80px;
+}
+
+button:hover {
+    background-color: #5e3b80;
+}
+
+header {
+    background-color: #d6cccc;
+    color: #da2a39;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+   
+  }
+  
+  .nav-bar {
+    margin-left: auto;
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .nav-bar {
+        margin-top: 10px;
+    }
+  
+    nav {
+        margin-top: 10px;
+    }
+  
+    nav ul {
+        flex-direction: column;
+    }
+  
+    nav ul li {
+        margin: 0;
+        margin-bottom: 100px;
+    }
+  }
+
+  .corpoInicio{
+
+    width: 100%;
+    height: 100%;
+    background-color: #004AAD;
+    color: white;
+    padding: 40px;
+  
+  
+  }
+
+  a{
+    color: #004AAD;
+    text-align: center;
+    padding: 2px 7px;
+    margin: 2px;
+    border-radius: 20px;
+  }
+  
+  a:hover{
+    background-color: #004AAD;
+    color:#e4e6ec;
+    text-decoration: none;
+  }
+  footer{
+    background-color: #101111;
+    color: White;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 30vh;
+    margin-top: auto;
+    font-size:  14px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.centro {
+  text-align: center;
+  margin: 10px; 
+}
+
+footer div{
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Alinha os itens verticalmente em telas menores */
+  }
+}
+
+
+
+
